@@ -10,22 +10,26 @@
 
 ## Установка:
 1. Cклонируйте репозиторий проекта:  
-   'git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)  '
+   `git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)`
 2. Перейдите в директорию проекта и выполните команду для установки всех необходимых пакетов:  
     ```
     cd ProductCatalogApp  
     dotnet restore
     ```  
 3. Для использования базы данных SQLite необходимо применить миграции. Выполните следующую команду для создания и применения миграций:  
+   ```
    dotnet ef migrations add InitialCreate  
-   dotnet ef database update      
+   dotnet ef database update
+   ```
    Это создаст файл базы данных productcatalog.db в корневой директории вашего проекта.  
 5. Запустите приложение:  
-    dotnet run
-6. После успешного запуска, API будет доступно по адресу: https://localhost:5001 или http://localhost:5000.
-7. Тестирование API  
+   ```
+   dotnet run
+   ```
+7. После успешного запуска, API будет доступно по адресу: https://localhost:5001 или http://localhost:5000.
+8. Тестирование API  
 После запуска проекта можно протестировать API с помощью инструментов, таких как Postman.  
-8. Swagger UI  
+9. Swagger UI  
 Проект настроен для использования Swagger, чтобы предоставить документацию API. После запуска приложения откройте браузер и перейдите по адресу:
 [https://localhost:5001/swagger](https://localhost:5001/swagger)
 Там вы сможете видеть доступные эндпоинты и тестировать API напрямую через Swagger UI.
