@@ -16,7 +16,7 @@
     dotnet restore  
 3. Для использования базы данных SQLite необходимо применить миграции. Выполните следующую команду для создания и применения миграций:  
    dotnet ef migrations add InitialCreate  
-   dotnet ef database update    
+   dotnet ef database update      
    Это создаст файл базы данных productcatalog.db в корневой директории вашего проекта.  
 5. Запустите приложение:  
     dotnet run
