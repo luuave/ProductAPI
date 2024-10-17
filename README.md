@@ -8,7 +8,7 @@
 
 ## Установка:
 1. Клонируйте репозиторий:  
-   git clone <URL>  
+   git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)
 2. Перейдите в директорию проекта и установите зависимости:  
     cd ProductCatalogApp
     dotnet restore  
