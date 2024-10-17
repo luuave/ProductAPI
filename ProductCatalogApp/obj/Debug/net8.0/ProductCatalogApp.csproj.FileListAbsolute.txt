@@ -117,6 +117,7 @@ D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\ProductCatalogA
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\ProductCatalogApp.csproj.CoreCompileInputs.cache
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\ProductCatalogApp.MvcApplicationPartsAssemblyInfo.cs
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\ProductCatalogApp.MvcApplicationPartsAssemblyInfo.cache
+D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\ProductCatalogApp.sourcelink.json
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\staticwebassets.build.json
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\staticwebassets.development.json
 D:\roboline\ProductCatalogApp\ProductCatalogApp\obj\Debug\net8.0\staticwebassets\msbuild.ProductCatalogApp.Microsoft.AspNetCore.StaticWebAssets.props
