@@ -9,7 +9,7 @@
 - SQLite
 
 ## Установка:
-1. Cклонируйте репозиторий проекта:  
+1. Cклонируйте репозиторий проекта (можно сделать, открыв Visual Studio, или через GitBash):  
    `git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)`
 2. Перейдите в директорию проекта и выполните команду для установки всех необходимых пакетов:  
     ```
