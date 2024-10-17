@@ -10,10 +10,12 @@
 
 ## Установка:
 1. Cклонируйте репозиторий проекта:  
-   git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)  
+   'git clone [https://github.com/luuave/ProductAPI.git](https://github.com/luuave/ProductAPI.git)  '
 2. Перейдите в директорию проекта и выполните команду для установки всех необходимых пакетов:  
+    ```
     cd ProductCatalogApp  
-    dotnet restore  
+    dotnet restore
+    ```  
 3. Для использования базы данных SQLite необходимо применить миграции. Выполните следующую команду для создания и применения миграций:  
    dotnet ef migrations add InitialCreate  
    dotnet ef database update      
