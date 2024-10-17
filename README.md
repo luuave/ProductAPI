@@ -32,3 +32,14 @@
    `Swagger UI`  
 Проект настроен для использования Swagger, чтобы предоставить документацию API.
 Там вы сможете видеть доступные эндпоинты и тестировать API напрямую через Swagger UI.
+9. Эндпоинты  
+# ProductCategory  
+- GET /api/ProductCategory — Получить список всех категорий товаров
+- POST /api/ProductCategory — Создать новую категорию товара
+- PUT /api/ProductCategory/{id} — Обновить категорию товара
+- DELETE /api/ProductCategory/{id} — Удалить категорию товара
+# Product  
+- GET /api/Product — Получить список всех товаров
+- POST /api/Product — Создать новый товар
+- PUT /api/Product/{id} — Обновить товар
+- DELETE /api/Product/{id} — Удалить товар
